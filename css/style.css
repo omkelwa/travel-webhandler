@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+ ul{
+    list-style:none;
+ }
+
+.container{
+    background-image: url(../images/norway.jpeg);
+    height:120vh;
+    background-size:cover;
+    background-position: center;
+    padding-top:50px;
+}
+
+.mini-container{
+     background-image: url(../images/norway.jpeg);
+    width:1200px;
+    height:600px;
+    background-size:cover;
+    background-position: center;
+    margin:auto;
+    border: 2px solid;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    color:white;
+    text-transform: uppercase;
+}
+.logo{
+    width:12%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    width:60%;
+    display:flex;
+    justify-content: space-between;
+    font-size:18px;
+
+}
+
+/* hero section starts */
+
+.hero-section{
+    height:91%;
+    display:flex;
+    text-transform: uppercase;
+}
+/* social media section stars */
+
+.social-media{
+    width:10%;
+    height:91%;
+    padding-top:400px;
+    padding-left: 50px;
+}
+.icons {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100px;
+    width:20px;
+    align-items: center;
+}
+.icons i {
+    background:white;
+}
+
+/* explore section start */
+
+.explore-section{
+    height:100%;
+    width:90%;
+    padding-top:300px;
+    padding-left:500px;
+    color:white;
+}
+.explore-section p {
+    font-size: 20px;
+}
+.explore-section h2{
+    font-size:80px;
+}
+
+.explore-btn {
+    padding: 5px 40px;
+    text-transform: uppercase;
+    margin-top:20px;
+    background:none;
+    color:white;
+    border:1px solid white;
+    margin-left:300px;
+}
